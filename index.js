@@ -18,7 +18,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://k-frontend-iota.vercel.app',
+  origin: process.env.FRONTEND_URL || 'https://t-frontend-nine.vercel.app',
   credentials: true
 }));
 
